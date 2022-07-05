@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title {
+    color:blueviolet;
+}
+
+.photo{
+    border: 1px;
+    width: 200px;
+    padding-left: 40%;
+}
+
+.titulo{
+    background-color:antiquewhite;
+    padding:15px;
+    border: 3px solid blueviolet;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+}
+
+.music{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
