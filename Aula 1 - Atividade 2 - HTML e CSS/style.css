@@ -1,0 +1,32 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title {
+    color:rgb(14, 14, 230);
+}
+
+.subtitle{
+    color:rgb(56, 56, 161);
+}
+
+.titulo{
+    background-color:white;
+    padding:15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+}
+
+.filmes{
+    margin: 0;
+    text-align: justify;
+    list-style-type: circle;
+    padding-left: 15px;
+}
+
+.titulos_filmes{
+    color: rgb(80, 80, 180);
+}
