@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <article class="head">
+      <h1 id="titulo">Cadastrar Contatos</h1>
+    </article>
+
+    <form>
+        <div class="input">
+            <input type="text" name="nome" size="20" id="nome" value="Digite seu nome">
+            <input type="tel" name="telefone" size="20" id="telefone" value="Digite seu telefone">
+            <input type="text" name="endereco" size="20" id="endereco" value="Digite o endereço">
+        </div>
+
+        <div class="radio">
+        <label>Gênero</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label>
+        </div>
+
+        <div class="comentary">
+        <img src="./perfil.webp" class="image">
+        <textarea id="comentario" name="comentario" rows="4" cols="50">
+        </textarea>
+        </div>
+
+        <div class="botao">
+            <input type="submit" value="Salvar">
+            <input type="button" value="Cancelar">
+        </div>
+    </form>
+    <br><br>
+    <article class="footer">
+        <footer>
+            By Giovanna
+        </footer>
+    </article>
+</body>
+</html>
